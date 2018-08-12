@@ -6,7 +6,7 @@ $result = mysqli_query($conn, "SELECT * FROM stranke WHERE name like 'D%'");
 
 while($row = mysqli_fetch_assoc($result)) {
     
-    //getting data from db example $row['email'];
+    //getting data from table example $row['email'];
     
     //recipient
     $to = $row['email']; 
