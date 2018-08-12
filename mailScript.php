@@ -18,7 +18,7 @@ while($row = mysqli_fetch_assoc($result)) {
     $message = "
         <html>
         <head>
-            <title>Zahvala</title>
+            <title>Thank you</title>
         </head>
         <body>
             <h3>Dear {$row['name']},</h3>
